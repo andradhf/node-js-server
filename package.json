@@ -1,0 +1,32 @@
+{
+  "name": "js-server",
+  "version": "1.0.0",
+  "description": "Notes app RESTfulAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andradhf/node-js-server.git"
+  },
+  "author": "andra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andradhf/node-js-server/issues"
+  },
+  "homepage": "https://github.com/andradhf/node-js-server#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "nanoid": "^3.3.8"
+  }
+}
